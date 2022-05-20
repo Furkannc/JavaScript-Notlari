@@ -1,0 +1,76 @@
+/*Her tarafta kullanılcak içerikler buraya eklenir*/
+
+/*Text*/
+.text-center{
+    text-align: center;
+}
+
+.heading-small{
+    font-size: 1.2rem;
+}
+
+.heading-medium{
+    font-size: 1.5rem;
+}
+
+.heading-big{
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+/* Buttons */
+.btn{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+}
+
+.btn-primary{
+    background-color: black;
+}
+
+.btn-block{/*Ekranı kaplayan bi btn */
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary:hover{
+    background-color: lightblue;
+    color: black;
+    border: 2px black solid;
+}
+
+/* Colors */
+
+.bg-dark-blue{
+    background: black
+}
+
+.bg-light-blue{
+    background: lightblue
+}
+
+/*Container*/
+.container{/* max genişğii 1000px olan bi element ve her zaman ortada durcak istediğimiz zaman kullanabiliriz*/
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*Forms*/
+
+.form-group{
+    padding: 0.25rem;
+}
+.form-group label{
+display: block;
+}
+.form-control{
+    font-size: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    border-radius: 10px;
+    resize: none;/*Yeniden boyutlandırma*/
+}

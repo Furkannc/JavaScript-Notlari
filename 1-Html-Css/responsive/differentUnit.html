@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html{
+            font-size: 20px;
+        }
+        div{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.5rem;
+            padding: 1.5em;
+            font-size: 50%;
+        } */
+        /* .a{
+           width: 40vw; eran genişlğiğiin %40 ı
+            height: 40vh; ekran uzunlugunun %40ı
+            background-color: black;
+        }
+         
+        */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .background{
+            background: url("images/background.jpeg") center  no-repeat;
+            /*Arka plana resim ekle ve konumunu merkez yapar tekrar etmez*/
+            background-size: cover; /*Arka planı kaplaması için*/
+            height: 100vh;
+            display: flex;/*içerikleri merkezlemek için*/
+            flex-direction: column;/*sutunda hizalar*/
+            color: white;/*içeriklerin rengi*/
+            align-items: center;/*Main axis center yapar*/
+            padding: 10rem;/*fontsize normalde 16 oldugu için 160px padding verildi*/
+        }   
+        h1{
+            margin-bottom: 1rem;
+            font-size: 3rem;
+        }
+        p{
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+        
+        @media(max-width:500px){
+            h1{
+                margin-bottom: 0.5rem;
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 1rem;
+                
+            }
+        }
+    </style>
+</head>
+<!-- 
+em : parent font size a gore kendini ayarlar
+rem : html elementinin font size gore kendini ayarlar
+% : html degerlerini baz alır
+vw: ekranın genişliği
+vh:ekranın uzunlugu
+ -->
+
+<body>
+    <div class="background">
+        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, nisi?    </p> -->
+        <h1>Welcome to do site</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt omnis laudantium rerum natus! Sint reprehenderit iste soluta pariatur, laudantium facere?</p>
+    </div>
+</body>
+</html>

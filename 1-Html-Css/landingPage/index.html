@@ -1,0 +1,131 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furkan Coşgun</title>
+    <meta name="keyword" content="yazılım,bilim,mobileDev">
+    <meta name="description" content="Furkan Coşgun landin page">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- main -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Tablet -->
+    <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+</head>
+<body>
+    <header class="bg-dark-blue">
+        <div class="container">
+        <nav id="navbar">
+            <h1>Furkan COŞGUN</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#training">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <section id="home">
+        <img src="images/sp.jpg" alt="Furkan" >
+        <div class="name text-center">
+           
+                <h2 class="heading-big">Furkan COŞGUN</h2>
+                <p>Mobile developer / Backend developer</p>
+         
+        </div>
+        <a class="btn btn-primary"  href="#skills">Go to Skills</a>
+    </section>
+    <section id="training" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Training</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil"></i>
+                <h3>Study in class</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptatem.</p>
+            </article><article class="item">
+                <i class="fa fa-pencil"></i>
+                <h3>Online content</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptatem.</p>
+            </article><article class="item">
+                <i class="fa fa-pencil"></i>
+                <h3>conferences</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, voluptatem.</p>
+            </article>
+        </div>
+    </section>
+    <section id="skills">
+        <h3 class="text-center heading-medium">Skills</h3><!--başlık-->
+        <div class="container"><!--geniş ekranda yayılmasın ortalansınlar die-->
+            <div class="skills"><!--tum kursları kaplayan alan-->
+                <div class="skill"><!--ve kurslar article da denilebilirdi-->
+                    <div class="skill-image">
+                        <img src="images/py.jpg" alt="Python">
+                        <span>%70 skill</span> 
+                    </div>
+                        <div class="skill-info">
+                            <div class="title text-center">Python</div>
+                            <div class="description">Artificial intelligence has been active in data scraping and various fields</div>
+                        </div>
+                </div>
+                <div class="skill"><!--ve kurslar article da denilebilirdi-->
+                    <div class="skill-image">
+                        <img src="images/csharp.png" alt="C#">
+                        <span>%80 skill</span> 
+                    </div>
+                        <div class="skill-info">
+                            <div class="title text-center">C# </div>
+                            <div class="description">Desktop programs and game development</div>
+                        </div>
+                </div> 
+                <div class="skill"><!--ve kurslar article da denilebilirdi-->
+                    <div class="skill-image">
+                        <img src="images/flutter.png" alt="Flutter">
+                        <span>%90 skill</span>
+                    </div>
+                        <div class="skill-info">
+                            <div class="title text-center">Flutter</div>
+                            <div class="description">Developed applications on cross platforms, knows how to use api</div>
+                        </div>
+                </div> 
+                
+            </div>
+        </div>
+    </section>
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Contact Me!</h4>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="name" class="form-control" name="name" id="name" placeholder="Name">
+                </div> 
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div> 
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea type="message" rows="5" class="form-control" name="message" id="message" placeholder="Message"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-block">Submit</button>
+                
+              
+            </form>
+            <ul>
+                <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

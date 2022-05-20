@@ -1,0 +1,53 @@
+/* h1{
+    color: aqua;
+} */
+
+
+/*  id ye gore*/
+#logo{
+    color: red;
+    background-color: aqua;
+}
+
+
+/* class a gore */
+.info{
+    color: blueviolet;
+}
+
+#Lead.info /*hem id si lead hemde classı info olanı secer*/
+{
+    color: coral;
+    text-decoration: underline;
+}
+
+/* ikisini de aynı anda yapmak için */
+#logo2,.logo5{
+    color: yellow;
+    background-color: violet;
+}
+/* 
+a{
+    color: cornflowerblue;
+    background: none;
+    /*text-decoration: underline;Varsayılan olarak underline gelir altı çizili*/
+ /*   text-decoration: none;
+
+} */
+
+ul li a{/*ul nin içindeki li nin  içindeki a etiketini renklendirir ve altı çizili olmasını kapatır*/
+    color: cadetblue;
+    text-decoration: none;
+}
+
+/* .info span{ /*Classi info olanın span rengi*/
+ /*   color: red;
+} */
+
+.info .primary{/*Classı info olanın içindeki elementşn classı primary olanı sec*/
+    color: black;
+}
+
+*{ /*Sayfadaki butun elementleri secer*/
+    font-size: 30 !important; /*İmportant nasıl tanımlandıysa o şekilde kalır daha sonra değiştitirilmez*/ 
+}

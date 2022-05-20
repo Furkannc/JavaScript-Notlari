@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Open Sans', sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* Navbar */
+#navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;/*Hizalama işlemleri için*/
+    align-items: center; /*Merkeze hizalama yapar*/
+    padding: 0 1rem;
+    height: 70px;
+}
+#navbar ul{
+    list-style-type: none;/*Ul nin iconları*/
+    display: flex;
+    align-items: center;
+    
+}
+#navbar ul li a{/*Navbarın içindeki ul nin içindeki li nin içindeki " a " lar seçildi*/
+    padding: 0.75rem;
+}
+
+#navbar ul li a:hover{
+    background: lightblue;
+    color: #000;
+    border-radius: 5px;
+}
+/* Home section */
+#home{
+    display: flex;
+    flex-direction: column;/*Dikeyde yerleştirilecek*/
+    justify-content: center;/*Yatayda */
+    align-items: center; /*VE dikeyde ortalandı*/
+    padding: 2rem; /*Html fontsize 16 oldugu için 16*2*/
+    border-bottom: 1px solid gray;
+}
+
+#home img{
+    max-width: 30%;/* içinde bulunudgu blogu kaplasın */
+    height: auto; /* ekran buyudukce resimde buyusun */
+    border-radius: 100%;
+}
+
+#home .name h2{
+    margin: 0.5rem;
+}
+
+#home .name p{
+    font-weight: bold;
+    opacity: 0.7;
+    font-style: italic;
+}
+
+#training{
+    color: white;
+    padding: 1rem;
+}
+#training .items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#training .item{
+    width: 33%;
+    text-align: center;
+    padding: 1rem;
+}
+#training  .item:hover{
+    color: lightblue;
+}
+/* courses */
+
+#skills{
+    color: black;
+    padding: 1rem;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.skills .skill{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.skills .skill .skill-image{
+
+    margin: 1rem;
+    position: relative;
+}
+.skills .skill .skill-image img{/*VEerilebilir*/
+    border-radius: 10px;
+}
+
+.skills .skill .skill-image span{
+    position: absolute;
+    background-color: rebeccapurple;
+    right: 5;
+    bottom: 5;
+    padding: 0.5rem;
+    color:#fff;
+    border-radius: 5px;
+}
+
+.skills .skill .skill-info {
+    font-weight: bold;
+}
+.skills .skill .skill-info .title {
+    font-size: 2.50em;
+    letter-spacing: 2px;
+    margin: 1rem;
+}
+.skills .skill .skill-info .description {
+    font-size: 2.25em;
+    letter-spacing: 3px;
+    margin: 1rem;
+    opacity: 0.5;
+}
+
+/*contact*/
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form{
+flex-direction: column;
+max-width: 700px;
+margin: 0 auto;
+display: flex;
+}
+#contact .contact-form ul{
+    display: flex;
+    list-style-type: none;
+    align-self: center;/*sadece tek element ortalansın istenirse flex içinde kullanılabiir*/
+}
+#contact .contact-form ul li a{
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: 0.8;
+}

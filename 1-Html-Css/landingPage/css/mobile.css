@@ -1,0 +1,21 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.2rem;
+    padding-bottom: 1rem;
+    overflow: hidden;/*Taşmaları Gizler*/
+    height: 100px;
+}
+
+#training .items{
+   flex-direction: column;
+   
+}
+
+#training .items .item{
+   width: 100%;
+   
+}
+
+.skills .skill {
+    flex-direction: column;
+}

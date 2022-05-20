@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=7, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <style>
+            .box{
+                height: 200px;
+            }
+            div span{
+                background-color: red;
+                height: 50px;
+                width: 50px;
+                display: inline-block;
+                border: 3px solid black;
+            }
+    </style>
+</head>
+<body>
+    <!-- container-bg sm lg fluid vs vardir ve ekranı olculere gore kaplar -->
+   <!-- <div class="container bg-danger"  >
+       <h1>Hasadssdadsai</h1>
+   </div> -->
+<!--  -->
+<!-- 
+   <div class="container">
+       <div class="row"> -->
+           <!-- bg-danger: kırmızı , bg-primary : mavi ,bg-succes yeşil
+            bir row 12 eşit parçaya ayrılır col ile 12 eşit parçayı 3boxa
+            4 er tane vererk kullanır
+            eğer parçalar istenilen gibi olsun istenirse
+            col-1 veya col-2 kullanılabilir
+        -->
+           <!-- <div class="box bg-danger col"></div>
+           <div class="box bg-primary col"></div>
+           <div class="box bg-success col"></div>
+       </div>
+   </div> -->
+
+   <!--  -->
+   <!-- <div class="container">
+       <div class="row"> -->
+           <!-- col-sm small ekranalra kadar yan yana hizalar daha sonra ise colon olarak sıralar -->
+           <!-- col-md medium ekranalra kadar yan yana hizalar daha sonra ise colon olarak sıralar -->
+           <!-- <div class="box bg-danger col-sm"></div>
+           <div class="box bg-primary col-sm"></div>
+           <div class="box bg-success col-sm"></div>
+       </div>
+   </div> -->
+
+   <!--  -->
+
+   <!-- <div class="container">
+       <div class="row">
+           <div class="box-bg-danger col-6 col-md-4"></div>
+           <div class="box-bg-danger col-md-4"></div> -->
+           <!-- col-sayı ozelliği olmadıgında butun sayfayı kaplarlar  -->
+       <!-- </div>
+   </div> -->
+<!--  -->
+<!-- justify content ile yatayda ki durumu ayarlayabiliriz 
+align-items ile dikeydeki konumu ayarlanabilir
+sadece tek bir box hareket edilsin istenirse align-self ozelligi kullanılabilir
+-->
+   <!-- <div class="row bg-dark align-items-center justify-content-center" style="height: 600px;">
+       <div class="box bg-danger col-2"></div>
+       <div class="box bg-primary col-2"></div>
+       <div class="box bg-success col-2"></div>
+   </div> -->
+
+   <!--d-flex :display flex anlamına gelir
+dikeyde hizalansın istenşrse flex-column kullanılır
+-->
+   <div class="bg-dark d-flex justify-content-center align-items-center" style="height: 300px; width:300px">
+    <span></span>    
+    <span style="align-self: start;"></span>    
+    <span></span>    
+</div>
+</body>
+</html>
