@@ -1,5 +1,5 @@
 
-MongoDB CRUD
+MongoDB Shell CRUD 
 -
 
 **Veri tabanlarını gosterir**
@@ -62,6 +62,8 @@ MongoDB CRUD
 
 `db.collection-ad.find({},{collectKolonad:0})`
 
+**collectKolonadına kolon degerleri aynı olanalar gelir sadece**
+
 `db.collection-ad.find({collectKolonad:"kolon Deger"})`
 
 **collectKolonada istenen degerlerin oldugu verileri listeler**
@@ -70,9 +72,7 @@ MongoDB CRUD
 
 **collectKolonada istenen degerlerin oldugu veriler listeler**
 
-`db.collection-ad.find({collectKolonad:"istenen
-
-deger",collectKolonad:"istenen deger"})`
+`db.collection-ad.find({collectKolonad:"istenen deger",collectKolonad:"istenen deger"})`
 
 **collectKolonada gelen istenen degerden buyuk olan verileri listeler**
 
